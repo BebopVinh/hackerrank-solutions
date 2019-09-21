@@ -1,5 +1,3 @@
-require 'pry'
-
 def happyLadybugs(b)
     hash = {}
     underscore_count = 0
@@ -34,6 +32,3 @@ def happyLadybugs(b)
     #check to see if ladybugs can be made happy
     ans = (hash.values.any?(1))? "NO" : "YES"
 end
-
-
-happyLadybugs("RRRR")
